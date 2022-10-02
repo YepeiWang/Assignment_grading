@@ -1,0 +1,71 @@
+/* Common style attributes to all Apps
+ */
+
+.App {
+  margin-top:60;
+  text-align: center;
+  height: 60%;
+}
+
+.view {
+  margin-top:60;
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  height: 5%;
+  top: 60;
+  margin-top: 2rem;
+}
+.content {
+  overflow: scroll;
+  margin-left: 50%;
+  width: 45%;
+  height: calc(100%-400px);
+}
+
+/* Style attributes for Cluster App
+ */
+#cluster {
+  float: left;
+  background-color: white;
+}
+
+#cluster-analysis{
+  float: left;
+}
+
+#cluster-viz{
+  margin-top:1rem
+}
+
+#rubric-design{
+  height: 45%;
+  background-color: white;
+}
+
+
+#rubric-display{
+  height: 100%;
+  background-color: white;
+}
+
+#overview {
+  height: 100%;
+  background-color: white;
+}
+
+/* Style attributes for Check & Regrade App
+ */
+
+ .sidebar {
+  width: 43%;
+  overflow: fixed;
+  top: 0;
+  float: left;
+  left: 5%;
+  height: calc(100%-400px);
+  overflow-y: auto;
+  position: fixed;
+}
